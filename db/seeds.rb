@@ -28,4 +28,3 @@ ashe.new_gallery(event: "Parade", location: 'NYC', date: '1/9/18')
 christina.new_gallery(event: "MLK Memorial", location: 'DC', date: '1/10/18')
 christina.new_gallery(event: "Inauguration", location: 'DC', date: '1/11/18')
 christina.new_gallery(event: "Indy 500", location: 'Indiana', date: '1/12/18')
-
