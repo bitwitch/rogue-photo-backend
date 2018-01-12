@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  date: 2018-01-12 14:02:16
+  belongs_to: 
+
+two:
+  location: MyString
+  date: 2018-01-12 14:02:16
+  belongs_to: 
