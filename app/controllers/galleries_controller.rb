@@ -1,0 +1,27 @@
+class GalleriesController < ApplicationController
+  def index
+    galleries = Gallery.all  
+    render json: galleries 
+  end
+
+  def create
+    gallery = Gallery.new(gallery_params)
+    if gallery && gallery.save
+      render json: gallery 
+    else 
+      render json: {error: 'invalid gallery information'}
+    end 
+  end
+
+  def update
+  end
+
+  def destroy
+  end
+
+  private 
+
+  def gallery_params 
+    params.permit(:event, :date, :location, :user_id)
+  end 
+end
