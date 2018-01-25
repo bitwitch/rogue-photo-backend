@@ -12,19 +12,19 @@ danielle = User.create(name: 'Danielle', phone: '555-123-4567', email: 'danielle
 ashe = User.create(name: 'Ashe', phone: '555-123-4567', email: 'ashe@roguephoto.com', password: 'password')
 christina = User.create(name: 'Christina', phone: '555-123-4567', email: 'christina@roguephoto.com', password: 'password')
 
-jon.new_gallery(event: "Women's March", location: 'NYC', date: '1/1/18')
-jon.new_gallery(event: "Protest", location: 'NYC', date: '1/2/18')
+jon.new_gallery(name: "Women's March", location: 'NYC', date: '1/1/18')
+jon.new_gallery(name: "Protest", location: 'NYC', date: '1/2/18')
 
-dave.new_gallery(event: "Pride", location: 'DC', date: '1/3/18')
-dave.new_gallery(event: "Rally", location: 'LA', date: '1/4/18')
-dave.new_gallery(event: "Fest", location: 'NYC', date: '1/5/18')
+dave.new_gallery(name: "Pride", location: 'DC', date: '1/3/18')
+dave.new_gallery(name: "Rally", location: 'LA', date: '1/4/18')
+dave.new_gallery(name: "Fest", location: 'NYC', date: '1/5/18')
 
-danielle.new_gallery(event: "Fuck Trump", location: 'NYC', date: '1/6/18')
-danielle.new_gallery(event: "Fever Festival", location: 'NYC', date: '1/7/18')
+danielle.new_gallery(name: "Fuck Trump", location: 'NYC', date: '1/6/18')
+danielle.new_gallery(name: "Fever Festival", location: 'NYC', date: '1/7/18')
 
-ashe.new_gallery(event: "Drive", location: 'Chicago', date: '1/8/18')
-ashe.new_gallery(event: "Parade", location: 'NYC', date: '1/9/18')
+ashe.new_gallery(name: "Drive", location: 'Chicago', date: '1/8/18')
+ashe.new_gallery(name: "Parade", location: 'NYC', date: '1/9/18')
 
-christina.new_gallery(event: "MLK Memorial", location: 'DC', date: '1/10/18')
-christina.new_gallery(event: "Inauguration", location: 'DC', date: '1/11/18')
-christina.new_gallery(event: "Indy 500", location: 'Indiana', date: '1/12/18')
+christina.new_gallery(name: "MLK Memorial", location: 'DC', date: '1/10/18')
+christina.new_gallery(name: "Inauguration", location: 'DC', date: '1/11/18')
+christina.new_gallery(name: "Indy 500", location: 'Indiana', date: '1/12/18')
