@@ -1,7 +1,7 @@
 class Api::V1::GalleriesController < ApplicationController
   def index
-    galleries = Gallery.all  
-    render json: galleries 
+    resources = Cloudinary::Api.resources
+    render json: resources 
   end
 
   def create
