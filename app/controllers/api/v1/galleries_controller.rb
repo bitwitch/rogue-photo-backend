@@ -22,6 +22,6 @@ class Api::V1::GalleriesController < ApplicationController
   private 
 
   def gallery_params 
-    params.permit(:event, :date, :location, :user_id)
+    params.require(:gallery).permit(:name, :date, :location, :user_id, :tags => [])
   end 
 end
