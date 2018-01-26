@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20180112190333) do
 
   create_table "galleries", force: :cascade do |t|
     t.integer "user_id"
-    t.string "event"
+    t.string "name"
     t.string "location"
     t.datetime "date"
     t.datetime "created_at", null: false
